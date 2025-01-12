@@ -32,7 +32,7 @@ body{
     margin-right: 5%;
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 100px;
     img{
         transition: transform 0.3s, box-shadow 0.3s;
     }
@@ -86,6 +86,16 @@ body{
         position: absolute;
         left: 33%;
         top: 60%;
+    }
+    h1{
+        color: rgb(91, 89, 89);
+    }
+    p{
+        position: absolute;
+        top: 33%;
+        left: 4.19%;
+        color: grey;
+        font-size: small;
     }
 }
 
