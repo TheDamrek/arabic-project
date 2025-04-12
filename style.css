@@ -3,6 +3,7 @@
     margin: 0;
     text-decoration: none;
     color: white;
+    list-style-type: none;
 }
 body{
     height: 100vh;
@@ -12,51 +13,45 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
-.header{
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    height: 20%;
-    background-color:#451605 ;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-}
-.logo{
-    font-size: 30px;
-    margin-left: 5%;
-}
-.nav{
-    margin-right: 5%;
-    display: flex;
-    align-items: center;
-    gap: 100px;
-    img{
-        transition: transform 0.3s, box-shadow 0.3s;
-    }
-    img:hover{
-        transform: translateY(-10px);
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-        cursor: pointer; 
-    }
-}
-.logo2{
-    img{
-        height: 100px;
-        width: 100px;
-        transition: transform 0.3s, box-shadow 0.3s;
-    }
-    img:hover{
-        transform: translateY(-10px);
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-        cursor: pointer; 
-    }
-    display: flex;
-    align-items: center;
+
+ul {
+    list-style: none;
+    background: #451605;
 }
 
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+ul li a {
+    display: block;
+    padding: 20px 25px;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+ul li ul.dropdown li {
+    display: block;
+}
+
+ul li ul.dropdown {
+    width: 100%;
+    background: #451605;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li a:hover {
+    background: #2e0e03;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+}
 .classes {
     display: flex;
     flex-wrap: wrap;
@@ -205,4 +200,10 @@ body{
     transform: translateY(-10px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
     cursor: pointer;
+}
+.ibnsina{
+    img{
+        height: 80px;
+        width: 80px;
+    }
 }
