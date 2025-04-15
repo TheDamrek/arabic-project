@@ -97,8 +97,7 @@ canvas{
     justify-content: space-around;
     position: absolute;
     top: 150px;
-    left: 25%;
-    transform: translateX(-50%);
+    left: 15%;
     z-index: 10;
     cursor: pointer;
     img{
@@ -138,8 +137,7 @@ canvas{
     justify-content: space-around;
     position: absolute;
     top: 150px;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 40%;
     z-index: 10;
     cursor: pointer; 
     img{
@@ -179,8 +177,7 @@ canvas{
     justify-content: space-around;
     position: absolute;
     top: 150px;
-    left: 75%;
-    transform: translateX(-50%);
+    left: 65%;
     z-index: 10;
     cursor: pointer;
     img{
@@ -200,5 +197,18 @@ canvas{
         left: 17%;
     }
 }
+ .card-1:hover{
+    transform: translateY(-10%);
+    scale: 1.05;
+ }
+ .card-2:hover{
+    transform: translateY(-10%);
+    scale: 1.05;
+ }
+ .card-3:hover{
+    transform: translateY(-10%);
+    scale: 1.05;
+ }
+
 
 
