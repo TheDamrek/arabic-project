@@ -196,6 +196,7 @@ canvas{
         top: 85%;
         left: 17%;
     }
+    
 }
  .card-1:hover{
     transform: translateY(-10%);
@@ -209,6 +210,97 @@ canvas{
     transform: translateY(-10%);
     scale: 1.05;
  }
+
+ .btn2{
+    background-color: rgba(49, 9, 169, 0.8);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18%;
+    height: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    z-index: 10;
+    cursor: pointer; 
+    transition: 0.5s;
+ }
+ .btn2:hover{
+    scale: 1.05;
+    background-color: rgb(7, 7, 66);
+ }
+
+ .btn3{
+        background-color: rgba(49, 9, 169, 0.8);
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+        width: 250px;
+        text-align: center;
+        transition: transform 0.3s, box-shadow 0.3s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 18%;
+        height: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        position: absolute;
+        top: 80%;
+        left: 65%;
+        z-index: 10;
+        cursor: pointer;
+        transition: 0.5s;
+ }
+ .btn3:hover{
+    scale: 1.05;
+    background-color: rgb(7, 7, 66);
+ }
+
+ .btn1{
+    background-color: rgba(49, 9, 169, 0.8);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18%;
+    height: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: absolute;
+    top: 80%;
+    left: 15%;
+    z-index: 10;
+    cursor: pointer; 
+    transition: 0.5s;
+ }
+ .btn1:hover{
+    scale: 1.05;
+    background-color: rgb(7, 7, 66); 
+ }
+
+
+
+  
+  
+  
+  
 
 
 
