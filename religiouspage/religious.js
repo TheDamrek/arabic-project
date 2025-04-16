@@ -14,7 +14,7 @@ class Particle {
         this.size = Math.random() * 5 + 1;
         this.speedX = Math.random() * 2 - 1;
         this.speedY = Math.random() * 2 - 1;
-        this.color = `rgba(255,255,255,${Math.random()})`; // fixed template string
+        this.color = `rgba(255,255,255,${Math.random()})`;
     }
 
     update() {
@@ -57,7 +57,7 @@ window.addEventListener("mousemove", (e) => {
 });
 
 function movementParticles() {
-    canvasd.clearRect(0, 0, canvas.width, canvas.height); // clear canvas before redraw
+    canvasd.clearRect(0, 0, canvas.width, canvas.height);
 
     particles.forEach((particle) => {
         const dx = mouse.x - particle.x;
