@@ -83,3 +83,20 @@ function movementParticles() {
 
 initParticles();
 movementParticles();
+
+
+function showCard(msgId) {
+    const target = document.getElementById(msgId);
+    const isVisible = target.classList.contains('show');
+  
+    document.querySelectorAll('.hiddenmsg').forEach(el => el.classList.remove('show'));
+  
+    if (!isVisible) {
+        target.classList.add('show');
+      }
+  }
+
+
+  //tapant l'ecran jsp comment, on se contente de taper le bouton(gotta relearn js and quick, noway i can only do it with the button)
+  
+  

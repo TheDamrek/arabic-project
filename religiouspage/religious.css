@@ -211,7 +211,7 @@ canvas{
     scale: 1.05;
  }
 
- .btn2{
+ #btn2{
     background-color: rgba(49, 9, 169, 0.8);
     border-radius: 10px;
     padding: 10px;
@@ -234,12 +234,12 @@ canvas{
     cursor: pointer; 
     transition: 0.5s;
  }
- .btn2:hover{
+ #btn2:hover{
     scale: 1.05;
     background-color: rgb(7, 7, 66);
  }
 
- .btn3{
+ #btn3{
         background-color: rgba(49, 9, 169, 0.8);
         border-radius: 10px;
         padding: 10px;
@@ -262,12 +262,12 @@ canvas{
         cursor: pointer;
         transition: 0.5s;
  }
- .btn3:hover{
+ #btn3:hover{
     scale: 1.05;
     background-color: rgb(7, 7, 66);
  }
 
- .btn1{
+ #btn1{
     background-color: rgba(49, 9, 169, 0.8);
     border-radius: 10px;
     padding: 10px;
@@ -290,12 +290,122 @@ canvas{
     cursor: pointer; 
     transition: 0.5s;
  }
- .btn1:hover{
+ #btn1:hover{
     scale: 1.05;
     background-color: rgb(7, 7, 66); 
  }
 
+ #msg2 {
+      background: linear-gradient(90deg, rgb(70, 36, 126) 35%, rgb(39, 21, 149) 65%);
+      color: #fff;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -70%);
+      z-index: 10;
+      width: 300px;
+      height: 400px;
+      border-radius: 10%;
+      font-weight: 700;
+      text-align: center;
+      img{
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        top: 80%;
+        left: 40%;
+      }
+    h1{
+        position: absolute;
+        left: 33%;
+        top: 10%;
+    }
+    p{
+        position: absolute;
+        left: 1%;
+        top: 25%;
+        
+    }
+  }
+  
+  #msg3 {
+    background: linear-gradient(90deg, rgb(70, 36, 126) 35%, rgb(39, 21, 149) 65%);
+    color: #fff;
+    position: fixed;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -70%);
+    z-index: 10;
+    width: 300px;
+    height: 400px;
+    border-radius: 10%;
+    font-weight: 700;
+    text-align: center;
+    img{
+      height: 50px;
+      width: 50px;
+      position: absolute;
+      top: 80%;
+      left: 40%;
+    }
+  h1{
+      position: absolute;
+      left: 27%;
+      top: 10%;
+  }
+  p{
+      position: absolute;
+      left: 1%;
+      top: 25%;
+      
+  }
+}
 
+#msg1 {
+    background: linear-gradient(90deg, rgb(70, 36, 126) 35%, rgb(39, 21, 149) 65%);
+    color: #fff;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -70%);
+    z-index: 10;
+    width: 300px;
+    height: 400px;
+    border-radius: 10%;
+    font-weight: 700;
+    text-align: center;
+    img{
+      height: 50px;
+      width: 50px;
+      position: absolute;
+      top: 80%;
+      left: 40%;
+    }
+  h1{
+      position: absolute;
+      left: 33%;
+      top: 10%;
+  }
+  p{
+      position: absolute;
+      left: 1%;
+      top: 25%;
+      
+  }
+}
+
+.hiddenmsg {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .hiddenmsg.show {
+    display: block;
+    opacity: 1;
+  }
 
   
   

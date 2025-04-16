@@ -83,3 +83,14 @@ function movementParticles() {
 
 initParticles();
 movementParticles();
+
+function showCard(msgId) {
+    const target = document.getElementById(msgId);
+    const isVisible = target.classList.contains('show');
+  
+    document.querySelectorAll('.hiddenmsg').forEach(el => el.classList.remove('show'));
+  
+    if (!isVisible) {
+        target.classList.add('show');
+      }
+  }
